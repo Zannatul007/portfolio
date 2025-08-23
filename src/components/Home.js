@@ -6,7 +6,7 @@ import proPic from "../assets/portfolio_image.jpg";
 import { Contact } from "./Contact";
 export const Home = () => {
   return (
-    <div >
+    <div>
       <Row className="home-row">
         <Col className="home-col-0" md={1}></Col>
         <Col className="home-col-1 mt-4" xs={12} md={5}>
@@ -41,8 +41,8 @@ export const Home = () => {
           <div>
             <button className="download-button ms-4 mt-4">
               <a
-                href="/Zannatul Fardaush Tripty ACV.pdf"
-                download
+                href="/Zannatul_Fardaush_Tripty_ACV.pdf"
+                download="/Zannatul_Fardaush_Tripty_ACV.pdf"
                 className="home-button-link"
                 style={{ textDecoration: "none", color: "white" }}
               >
