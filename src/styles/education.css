@@ -1,0 +1,225 @@
+
+/* .education-title::after {
+  content: "";
+  display: block;
+  width: 10rem;
+  height: 4px;
+  background-color: #ffcc00;
+
+  margin: 10px auto 0;
+  border-radius: 2px;
+} */
+
+.education-container {
+  align-items: flex-start;
+  padding: 20px 0;
+  margin-bottom: 0rem;
+  margin-top: 0rem  ;
+  box-shadow: none;
+}
+
+.education-logo {
+  text-align: center;
+}
+
+.cuet-logo {
+  max-width: 15rem;
+  height: auto;
+}
+
+.title-date-row {
+  display: flex;
+  justify-content: space-between;
+  /* pushes title left, date right */
+  align-items: center;
+}
+
+.title-date-row h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.education-date {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #666;
+}
+
+.education-role {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #444;
+}
+
+.education-institution {
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.section-divider {
+  border: none;
+  border-top: 4px solid #ddd;
+  
+  margin-top:1rem;
+
+}
+
+.title-divider {
+  border: none;
+  border-top: 4px solid #aaa;
+  margin: 8px 0 15px;
+}
+
+.project-container {
+  margin-bottom: 2rem;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  /* allow equal height in flex layout */
+}
+
+#projects .row {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 2rem;
+  /* makes all Cols equal height */
+}
+
+.project-container ul li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+  /* gap between list items */
+}
+.project-container .icon {
+  font-size: 1.2rem;
+  margin-right: 8px;
+  flex-shrink: 0;
+  color:#1789FF;
+
+}
+.project-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  /* optional: makes hover brighter */
+}
+.icon {
+  margin-right: 8px;
+  /* Adjust spacing as needed */
+  vertical-align: middle;
+  /* optional: aligns icon with text */
+}
+.icon:hover {
+  color: #16334e;
+  /* Optional: change color on hover */
+}
+.skill-list li {
+  margin-bottom: 15px;
+  /* Gap between lines */
+  line-height: 1.6;
+  /* Optional: makes text more readable */
+}
+
+.keyword {
+  color: #000000;
+  /* Bootstrap primary blue */
+  font-weight: bold;
+
+}
+
+.achievement-purpose {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.achievement-institution {
+  font-size: 0.8rem;
+  color: #555;
+}
+.achievements-container {
+  align-items: flex-start;
+  padding: 20px 0;
+  margin: 3rem
+}
+.achievements-container li{
+  margin-top: 1rem;
+}
+
+.achievements-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.achievements-col h2 {
+  color: #0d6efd;
+  /* Bootstrap primary color */
+  margin-bottom: 15px;
+}
+
+.achievement-duration {
+  font-size: 0.75rem;
+  color: #777;
+  display: block;
+  
+  /* keeps duration on one line */
+}
+.achievements-col ul {
+  display: flex;
+  justify-content: center;
+  /* center horizontally */
+  flex-wrap: wrap;
+  /* wrap to next line if needed */
+  gap: 15px;
+  /* space between boxes */
+  padding: 0;
+  list-style: none;
+}
+.achievements-col h2 {
+
+  text-align: center;
+}
+.course-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center ;
+  margin-bottom: 12px;
+  list-style: none;
+  padding: 10px 15px;
+  width: 50%;
+  height: 5rem;
+  border: 2px solid #0d6efd;;
+  
+  background-color: #f9f9f9;
+  transition: transform 0.2s, box-shadow 0.2s;
+ 
+}
+
+
+.course-item .icon {
+  color: #0d6efd;
+  margin-right: 10px;
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.course-title {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.course-platform {
+  font-size: 0.8rem;
+  color: #555;
+  margin-left: 10px;
+  text-align: center;
+  display: block;
+}
