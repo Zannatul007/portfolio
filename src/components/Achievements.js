@@ -73,7 +73,7 @@ export const Achievements = () => {
       <h1 className="education-title">Achievements and Activities</h1>
       <Row className="m-4">
         <Col md={1}></Col>
-        <Col xs={12} md={6} className="">
+        <Col xs={12} md={6} className="m-3" >
           <h2 className="text-primary text-center">Honors & Achievements</h2>
           <ul style={{ listStyleType: "none", padding: 0 }}>
             {honorsAchievements.map((item, index) => (
@@ -89,8 +89,10 @@ export const Achievements = () => {
           </ul>
         </Col>
 
-        <Col xs={12} md={4} className="">
-          <h2 className="text-primary">Extracurricular Activities</h2>
+        <Col xs={12} md={4} className="m-3">
+          <h2 className="text-primary text-center">
+            Extracurricular Activities
+          </h2>
           <ul style={{ listStyleType: "none", padding: 0 }}>
             {activities.map((item, index) => (
               <li key={index} className="achievement-item">
