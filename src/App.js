@@ -12,11 +12,11 @@ import { Projects } from "./components/Projects";
 import { Skill } from "./components/Skill";
 import { Mooc } from "./components/Mooc";
 import { Achievements } from "./components/Achievements";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link ,Navigate} from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/portfolio">
         <NavBar /> {/* Navigation bar imported here */}
         <Routes>
           <Route path="/" element={<Home />} />

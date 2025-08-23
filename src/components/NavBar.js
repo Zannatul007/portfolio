@@ -1,11 +1,12 @@
-import React from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-export const NavBar = () => {   
+import React from "react";
+import { Navbar, Nav, Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
+
+export const NavBar = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary navbar-custom ">
+    <Navbar expand="lg" className="bg-body-tertiary navbar-custom">
       <Container>
-        <Navbar.Brand as={Link} to="/">
+        <Navbar.Brand as={Link} to="/home">
           Zannatul Fardaush Tripty
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -24,13 +25,13 @@ export const NavBar = () => {
               Publications
             </Nav.Link>
             <Nav.Link as={Link} to="/research">
-             Experience
+              Experience
             </Nav.Link>
             <Nav.Link as={Link} to="/projects">
-              Project
+              Projects
             </Nav.Link>
             <Nav.Link as={Link} to="/achievement">
-              Achievements & Activities{" "}
+              Achievements & Activities
             </Nav.Link>
             <Nav.Link as={Link} to="/training">
               Training
@@ -38,12 +39,11 @@ export const NavBar = () => {
             <Nav.Link as={Link} to="/skills">
               Skills
             </Nav.Link>
-            {/* <Nav.Link as={Link} to="/contact">
-              Contact
-            </Nav.Link> */}
+            {/* Optional Contact link */}
+            {/* <Nav.Link as={Link} to="/contact">Contact</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
   );
-}
+};
