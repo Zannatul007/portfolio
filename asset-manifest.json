@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f72d2d67.css",
+    "main.js": "/portfolio/static/js/main.273d603d.js",
+    "static/js/453.ad7768ec.chunk.js": "/portfolio/static/js/453.ad7768ec.chunk.js",
+    "static/media/nlp.png": "/portfolio/static/media/nlp.c5788a156dc6d8bbc5d7.png",
+    "static/media/llm.png": "/portfolio/static/media/llm.4ec12457841eaae66648.png",
+    "static/media/portfolio_image.jpg": "/portfolio/static/media/portfolio_image.3b9ebc998e2ad5751344.jpg",
+    "static/media/sagc_logo.png": "/portfolio/static/media/sagc_logo.54ecf9263bb9f127c4ae.png",
+    "static/media/bgphs_logo.jpg": "/portfolio/static/media/bgphs_logo.2fa4a73cb4b6cb4355a1.jpg",
+    "static/media/cuet_logo.png": "/portfolio/static/media/cuet_logo.80f5e82f73d1497030be.png",
+    "static/media/dL.png": "/portfolio/static/media/dL.275bd556dd50b2ec6060.png",
+    "static/media/cv.jpg": "/portfolio/static/media/cv.b79e60a7f91e9a044e3e.jpg",
+    "static/media/multi.png": "/portfolio/static/media/multi.6253c7d1cf35d7162f55.png",
+    "static/media/dkg.png": "/portfolio/static/media/dkg.6e9fec4a391507a9bb1f.png",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.c5f7c80a4f858f8356d49cb775eb88ae.svg",
+    "static/media/google_scholar.svg": "/portfolio/static/media/google_scholar.d563ee3e4e2f90f07cc700821e4591f5.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.a2dcecaacdba94077f71818776dd805b.svg",
+    "index.html": "/portfolio/index.html",
+    "main.f72d2d67.css.map": "/portfolio/static/css/main.f72d2d67.css.map",
+    "main.273d603d.js.map": "/portfolio/static/js/main.273d603d.js.map",
+    "453.ad7768ec.chunk.js.map": "/portfolio/static/js/453.ad7768ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f72d2d67.css",
+    "static/js/main.273d603d.js"
+  ]
+}
