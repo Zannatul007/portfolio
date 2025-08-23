@@ -41,7 +41,7 @@ export const Home = () => {
           <div>
             <button className="download-button ms-4 mt-4">
               <a
-                href="\Zannatul Fardaush Tripty ACV.pdf"
+                href="/Zannatul Fardaush Tripty ACV.pdf"
                 download
                 className="home-button-link"
                 style={{ textDecoration: "none", color: "white" }}
