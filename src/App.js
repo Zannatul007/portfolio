@@ -31,7 +31,6 @@ function App() {
           <Route path="/training" element={<Mooc />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-     
       </Router>
       {/* Other components can be added here, such as About, Education, etc. */}
     </div>

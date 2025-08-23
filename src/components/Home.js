@@ -6,7 +6,7 @@ import proPic from "../assets/portfolio_image.jpg";
 import { Contact } from "./Contact";
 export const Home = () => {
   return (
-    <div className="home-container" id="home">
+    <div >
       <Row className="home-row">
         <Col className="home-col-0" md={1}></Col>
         <Col className="home-col-1 mt-4" xs={12} md={5}>

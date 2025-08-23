@@ -1,5 +1,6 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { HiCheckCircle } from "react-icons/hi";
+import { Contact } from "./Contact";
 
 const projectsData = [
   {

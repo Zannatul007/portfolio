@@ -3,6 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { HiOutlineBadgeCheck } from "react-icons/hi";
 import "../styles/education.css";
+import { Contact } from "./Contact";
 
 const courses = [
   { title: "Deep Learning Specialization", platform: "[Coursera]" },

@@ -2,6 +2,7 @@ import { Row } from "react-bootstrap";
 import Col from "react-bootstrap/Col";
 import { HiCheckCircle } from "react-icons/hi";
 import "../styles/education.css";
+import { Contact } from "./Contact";
 
 export const Skill = () => {
   return (
@@ -73,6 +74,9 @@ export const Skill = () => {
           </ul>
         </Col>
       </Row>
+      <footer>
+        <Contact />
+      </footer>
     </div>
   );
 };
