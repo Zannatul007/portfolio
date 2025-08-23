@@ -39,6 +39,9 @@ export const Mooc = () => {
         </Col>
         <Col className="achievements-col" xs={12} md={12}></Col>
       </Row>
+      <footer>
+        <Contact /> 
+        </footer>
     </div>
   );
 };

@@ -5,6 +5,7 @@ import cuet_logo from "../assets/cuet_logo.png";
 import sagc_logo from "../assets/sagc_logo.png";
 import bgphs_logo from "../assets/bgphs_logo.jpg";
 import dkg_logo from "../assets/dkg.png";
+import { Contact } from "./Contact";
 
 const educationData = [
   {
@@ -106,6 +107,9 @@ export const Education = () => {
           </Row>
         </div>
       ))}
+      <footer>
+        <Contact />
+      </footer>
     </div>
   );
 };

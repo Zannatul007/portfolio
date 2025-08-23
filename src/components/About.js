@@ -3,13 +3,12 @@ import Grid from "@mui/material/Grid";
 import { FaBeer, FaCoffee, FaApple, FaAndroid } from "react-icons/fa";
 
 import multi from "../assets/multi.png";
-import DL from "../assets/dL.png";  
+import DL from "../assets/dL.png";
 import cv from "../assets/cv.jpg";
-import nlp from "../assets/nlp.png";  
+import nlp from "../assets/nlp.png";
 import xai from "../assets/dL.png";
-import se from "../assets/swe.jpg";  
-import llm from "../assets/llm.png";    
-
+import se from "../assets/swe.jpg";
+import llm from "../assets/llm.png";
 
 const items = [
   { icon: DL, text: "Deep Learning" },
@@ -21,7 +20,6 @@ const items = [
   { icon: llm, text: "Large Language Models" },
   { icon: se, text: "Software Engineering" },
 ];
-
 
 export const About = () => {
   return (
@@ -78,11 +76,16 @@ export const About = () => {
       <div className="grid-container">
         {items.map((item, index) => (
           <div className="grid-item" key={index}>
-            <span className="grid-icon"><img src ={item.icon}/></span>
+            <span className="grid-icon">
+              <img src={item.icon} />
+            </span>
             <span className="text">{item.text}</span>
           </div>
         ))}
       </div>
+      <footer>
+        <Contact />
+      </footer>
     </div>
   );
 };

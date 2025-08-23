@@ -1,6 +1,7 @@
 import { Row, Col } from "react-bootstrap";
 import "../styles/education.css";
 import { HiCheck, HiCheckCircle } from "react-icons/hi";
+import { Contact } from "./Contact";
 
 const honorsAchievements = [
   {
@@ -33,13 +34,14 @@ const honorsAchievements = [
   },
 
   {
-    purpose: 'Secondary School Certificate (SSC) General Scholarship Award - 2016',
+    purpose:
+      "Secondary School Certificate (SSC) General Scholarship Award - 2016",
     institution: "Bangladesh Education Board",
   },
   {
-    purpose: 'Junior School Certificate (JSC) General Scholarship Award - 2014',
+    purpose: "Junior School Certificate (JSC) General Scholarship Award - 2014",
     institution: "Bangladesh Education Board",
-  }
+  },
 ];
 
 const activities = [
@@ -70,7 +72,7 @@ export const Achievements = () => {
     <div>
       <h1 className="education-title">Achievements and Activities</h1>
       <Row className="m-4">
-       <Col md={1}></Col>
+        <Col md={1}></Col>
         <Col xs={12} md={6} className="">
           <h2 className="text-primary text-center">Honors & Achievements</h2>
           <ul style={{ listStyleType: "none", padding: 0 }}>
@@ -102,13 +104,16 @@ export const Achievements = () => {
                     </span>
                   </>
                 )}
-              
+
                 <span className="achievement-duration">{item.duration}</span>
               </li>
             ))}
           </ul>
         </Col>
       </Row>
+      <footer>
+        <Contact />
+      </footer>
     </div>
   );
 };

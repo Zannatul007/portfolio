@@ -3,6 +3,7 @@ import navIcon1 from "../assets/google_scholar.svg";
 import navIcon2 from "../assets/github.svg";
 import navIcon3 from "../assets/linkedin.svg";
 import proPic from "../assets/portfolio_image.jpg";
+import { Contact } from "./Contact";
 export const Home = () => {
   return (
     <div className="home-container" id="home">
@@ -58,6 +59,9 @@ export const Home = () => {
           />
         </Col>
       </Row>
+      <footer>
+        <Contact />
+      </footer>
     </div>
   );
 };

@@ -1,3 +1,5 @@
+import { Contact } from "./Contact";
+
 export const Publications = () => {
   return (
     <div>
@@ -35,6 +37,9 @@ export const Publications = () => {
           </li>
         </ul>
       </div>
+      <footer>
+        <Contact />
+      </footer>
     </div>
   );
 };

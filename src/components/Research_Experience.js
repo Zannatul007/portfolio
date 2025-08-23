@@ -6,6 +6,7 @@ import nlp_logo from "../assets/cuet_nlp.jpeg";
 import bs_logo from "../assets/bs-23.jpeg";
 import elite_logo from "../assets/elite.png";
 import { HiCheckCircle } from "react-icons/hi";
+import { Contact } from "./Contact";
 
 const experiences = [
   {
@@ -81,6 +82,9 @@ export const Experience = () => {
           )}
         </Row>
       ))}
+      <footer>
+        <Contact />
+      </footer>
     </div>
   );
 };

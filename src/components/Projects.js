@@ -95,10 +95,7 @@ export const Projects = () => {
                 <ul style={{ listStyle: "none", paddingLeft: 0 }}>
                   {project.features.map((feature, i) => (
                     <li key={i} className="mb-2 align-items-start">
-                      <HiCheckCircle 
-                        className="icon"
-                      
-                      />
+                      <HiCheckCircle className="icon" />
                       <span>{feature}</span>
                     </li>
                   ))}
@@ -108,6 +105,9 @@ export const Projects = () => {
           </Col>
         ))}
       </Row>
+      <footer>
+        <Contact />
+      </footer>
     </div>
   );
 };
