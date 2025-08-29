@@ -160,7 +160,7 @@
 }
 
 .achievements-col h2 {
-  color: #0d6efd;
+  color:#082840;
   /* Bootstrap primary color */
   margin-bottom: 15px;
 }
@@ -196,7 +196,7 @@
   padding: 10px 15px;
   width: 50%;
   height: 5rem;
-  border: 2px solid #0d6efd;;
+  border: 2px solid #082840;
   
   background-color: #f9f9f9;
   transition: transform 0.2s, box-shadow 0.2s;
@@ -205,7 +205,7 @@
 
 
 .course-item .icon {
-  color: #0d6efd;
+  color: #082840;
   margin-right: 10px;
   font-size: 2rem;
   flex-shrink: 0;
