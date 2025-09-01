@@ -11,11 +11,17 @@ import { Contact } from "./Contact";
 const experiences = [
   {
     title: "Research Assistant",
-    date: "September 2025 - Ongoing",
+    date: "August 2025 - Present",
     role: "LLM, xAI, NLP",
     institution: "Elite Lab, New York, USA",
     logo: elite_logo,
-    responsibilities: [],
+    responsibilities: [
+      "Writing research articles on explainable and interpretable AI, with a focus on large language models (LLMs).",
+
+      "Supervising and mentoring junior research interns, guiding them in project design, execution, and research best practices.",
+
+      "Collaborating with the core research team to advance projects in transparent, reliable, and accessible AI technologies.",
+    ],
   },
   {
     title: "Software Engineer (Intern)",
