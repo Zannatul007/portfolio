@@ -21,11 +21,12 @@ export const Home = () => {
           </p>
           <p>My research interest lies in the broad spectrum of:</p>
           <ul className="research-education-list">
-            <li>Machine Learning</li>
             <li>Natural Language Processing</li>
             <li>Computer Vision</li>
-            <li>Large Language Models</li>
             <li>Multimodal Learning</li>
+            <li>Large Language Models</li>
+            <li>Generative AI </li>
+            <li>Explainable AI</li>
           </ul>
           <div className="social-icon">
             <a href="https://scholar.google.com/citations?user=eaxlZQoAAAAJ&hl=en">
